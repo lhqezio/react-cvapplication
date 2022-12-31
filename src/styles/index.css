@@ -5,9 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     width: 80%;
+    color: #68dcfc;
 }
 header{
-    color: #68dcfc;
     font-weight: 400;
 }
 #gen-info{
@@ -35,6 +35,9 @@ header{
     font-size: 1em;
 }
 
-#gen-info p {
+.uedit {
     font-size: 1.5em;
+}
+#edu-exp {
+    text-align: left;
 }
