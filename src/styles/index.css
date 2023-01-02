@@ -10,34 +10,103 @@ body {
 header{
     font-weight: 400;
 }
+
+#gen-info,.msect{
+    text-align: left; 
+    border: 1px solid #68dcfc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#first-col{
+    border-right: 1px dashed #68dcfc;
+    padding-right: 10px;
+}
+#second-col{
+    padding-left: 10px;
+}
 #gen-info{
     display: flex;
-    background-color: #68dcfc;
-    border-radius: 10px;
-    text-align: left;
-}
-#gen-info > div {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #282c34;
-    color: #68dcfc;
-    font-weight: 400;
-    flex: 1;
 }
 
+#gen-info > div {
+    flex: 1;
+}
+.msect > div,button {
+    margin: 10px;
+}
 .name {
     font-size: 2em;
 }
 
-.name input {
-    font-size: 1em;
+
+#add-header{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.uedit {
+.s-header{
+    font-size: 2em;
+}
+button {
+    background-color: #282c34;
+    color: #68dcfc;
+    border: 4px solid #68dcfc;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 1.3em;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #68dcfc;
+    color: #282c34;
+    cursor: pointer;
+}
+.edu-item {
+    margin: 10px;
+    border: 1px solid #68dcfc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.i-header {
+    margin-bottom: 0px;
+    padding: 0px;
     font-size: 1.5em;
 }
-#edu-exp {
-    text-align: left;
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.add-form input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.add-form{
+    margin-top: 20px;
+}
+input {
+    border: 1px solid #68dcfc;
+    border-radius: 5px;
+    color: #68dcfc;
+    background-color: #282c34;
+    transition: 0.3s;
+    font-size: 1em;
+
+}
+input:focus {
+    outline: none;
+}
+
+.place {
+    font-size: 1.5em;
+}
+
+.title,.year-header {
+    font-style: italic;
+}
+.desc{
+    width: 50%;
 }

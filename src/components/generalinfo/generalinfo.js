@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import Editablefield from "./editablefield";
+import Editablefield from "../misc/editablefield";
 import Uneditableheader from "../misc/uneditableheader";
 class GeneralInfo extends Component {
     render(){
@@ -13,7 +13,7 @@ class GeneralInfo extends Component {
                <div id={"second-col"}>
                 <Editablefield className={"email"} displaytext={"Email"}/>
                 <Editablefield className={"phone"} displaytext={"Phone"}/>
-                <Uneditableheader text={"Address"}/>
+                <Uneditableheader text={"Address"} id={"add-header"}/>
                 <Editablefield className={"st-no"} displaytext={"Street No"}/>
                 <Editablefield className={"st-name"} displaytext={"Street Name"}/>
                 <Editablefield className={"city"} displaytext={"City"}/>
